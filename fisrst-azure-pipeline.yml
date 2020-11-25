@@ -23,4 +23,4 @@ jobs:
 - job: job2
   steps:
   - script: echo Hello, Vijay This is your new project!
-    displayName: 'Run a mulri-line script'
+    displayName: 'Run a multi-line script'
