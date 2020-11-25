@@ -21,6 +21,7 @@ jobs:
     displayName: 'Run a multi-line script'
 
 - job: job2
+  dependson: job1
   steps:
   - script: echo Hello, Vijay This is your new project!
     displayName: 'Run a multi-line script'
